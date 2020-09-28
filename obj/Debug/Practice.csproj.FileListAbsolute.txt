@@ -1,0 +1,10 @@
+C:\Users\윤보민\source\repos\Practice1\Practice\bin\Debug\Practice.exe.config
+C:\Users\윤보민\source\repos\Practice1\Practice\bin\Debug\Practice.exe
+C:\Users\윤보민\source\repos\Practice1\Practice\bin\Debug\Practice.pdb
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.csprojAssemblyReference.cache
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.Form1.resources
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.csproj.GenerateResource.cache
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.exe
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.pdb
