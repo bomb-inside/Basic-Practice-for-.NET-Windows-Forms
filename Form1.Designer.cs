@@ -73,9 +73,9 @@
             // arrageToolStripMenuItem
             // 
             this.arrageToolStripMenuItem.Name = "arrageToolStripMenuItem";
-            this.arrageToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
-            this.arrageToolStripMenuItem.Text = "&Arrage";
-            this.arrageToolStripMenuItem.Click += new System.EventHandler(this.arrageToolStripMenuItem_Click);
+            this.arrageToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.arrageToolStripMenuItem.Text = "&Arrange";
+            this.arrageToolStripMenuItem.Click += new System.EventHandler(this.arrangeToolStripMenuItem_Click);
             // 
             // Form1
             // 

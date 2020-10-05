@@ -19,8 +19,8 @@ namespace Practice
         }
 
         public string serialNum = "";
-        Form3 MDIChild1;
-        Form2 MDIChild2;
+        Form3 SNinput;
+        Form2 ChildWindow;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -32,10 +32,10 @@ namespace Practice
         private void NewToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            MDIChild1 = new Form3();
-            //MDIChild1.MdiParent = this;
-            MDIChild1.FormClosed += MDIChild1_FormClosed; //close event
-            MDIChild1.Show();
+            SNinput = new Form3();
+            //SNinput.MdiParent = this;
+            SNinput.FormClosed += SNinput_FormClosed; //close event
+            SNinput.Show();
 
             /*
             //Just creating a new window
@@ -49,23 +49,23 @@ namespace Practice
 
         }
 
-        private void MDIChild1_FormClosed(object sender, FormClosedEventArgs e) //corresponds to the close event above
+        private void SNinput_FormClosed(object sender, FormClosedEventArgs e) //corresponds to the close event above
         {
-            this.serialNum = MDIChild1.serialNum;
-            MDIChild1 = null;
-            MDIChild2 = new Form2();
-            MDIChild2.MdiParent = this;
-            MDIChild2.serialNum = this.serialNum;
-            MDIChild2.Show();
+            this.serialNum = SNinput.serialNum;
+            SNinput = null;
+            ChildWindow = new Form2();
+            ChildWindow.MdiParent = this;
+            ChildWindow.serialNum = this.serialNum;
+            ChildWindow.Show();
             LayoutMdi(MdiLayout.TileVertical);
         }
 
-        private void arrageToolStripMenuItem_Click(object sender, EventArgs e)
+        private void arrangeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LayoutMdi(MdiLayout.TileVertical);
         }
 
-        
+
 
         /*
         //--Button Example--
