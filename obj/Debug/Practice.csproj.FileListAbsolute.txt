@@ -9,3 +9,4 @@ C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.csproj.Cor
 C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.exe
 C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.pdb
 C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.Form2.resources
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.Form3.resources
