@@ -10,3 +10,7 @@ C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.exe
 C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.pdb
 C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.Form2.resources
 C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.Form3.resources
+C:\Users\윤보민\source\repos\Practice1\Practice\bin\Debug\MetroFramework.Design.dll
+C:\Users\윤보민\source\repos\Practice1\Practice\bin\Debug\MetroFramework.dll
+C:\Users\윤보민\source\repos\Practice1\Practice\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\윤보민\source\repos\Practice1\Practice\obj\Debug\Practice.csproj.CopyComplete

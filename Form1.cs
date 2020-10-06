@@ -19,19 +19,60 @@ namespace Practice
         }
 
         public string serialNum = "";
-        Form3 SNinput;
         Form2 ChildWindow;
+        Form3 SNinput;
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-
 
         }
 
         private void NewToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            makingNewWindows();
+        }
 
+        private void SNinput_FormClosed(object sender, FormClosedEventArgs e) //corresponds to the close event above
+        {
+            this.serialNum = SNinput.serialNum;
+            if (serialNum != "")
+            {
+                SNinput = null;
+                ChildWindow = new Form2();
+                ChildWindow.MdiParent = this;
+                ChildWindow.serialNum = this.serialNum;
+                ChildWindow.Show();
+            }
+                
+        }
+
+        private void tileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void tileHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.TileHorizontal);
+        }
+
+        private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void arrangeIconToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.ArrangeIcons);
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            //if (e.Control && e.KeyCode == Keys.N) makingNewWindows();
+        }
+
+        private void makingNewWindows()
+        {
             SNinput = new Form3();
             //SNinput.MdiParent = this;
             SNinput.FormClosed += SNinput_FormClosed; //close event
@@ -46,25 +87,7 @@ namespace Practice
             newMDIChild.Show();
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileVertical);
             */
-
         }
-
-        private void SNinput_FormClosed(object sender, FormClosedEventArgs e) //corresponds to the close event above
-        {
-            this.serialNum = SNinput.serialNum;
-            SNinput = null;
-            ChildWindow = new Form2();
-            ChildWindow.MdiParent = this;
-            ChildWindow.serialNum = this.serialNum;
-            ChildWindow.Show();
-            LayoutMdi(MdiLayout.TileVertical);
-        }
-
-        private void arrangeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileVertical);
-        }
-
 
 
         /*
