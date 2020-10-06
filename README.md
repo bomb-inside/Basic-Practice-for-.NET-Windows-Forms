@@ -1,5 +1,7 @@
-# Practice
-Practicing Dotnet Programming since 200928
+# Basic Practice for .NET Windows Forms
+Practicing .NET Windows Forms since 200928
+
+.NET Framework 4.7.2 in C#
 
 + basic MDI 200929
 + MDI layout 201005
